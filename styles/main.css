@@ -16,7 +16,7 @@ main{
 
 .main_info p {
     font-size: 18px;
-    margin: 20px 0 28px;
+    margin: 20px 0 28px 28px;
 }
 
 .main_info div{
@@ -40,10 +40,21 @@ main{
 
 .main_info div a{
     background-color: var(--vermelho);
+    margin-left: 25px;
+}
+
+.main_info div a:hover{
+    background: transparent;
+    border: 1px solid var(--vermelho);
+    
 }
 
 .main_info div button{
     background: transparent;
     border: 1px solid var(--azul);
+}
+
+.main_info div button:hover{
+    background: var(--azul);
 }
 

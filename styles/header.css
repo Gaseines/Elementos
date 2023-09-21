@@ -21,6 +21,8 @@ header img{
     column-gap: 48px;
 
     list-style: none;
+;
+    
 }
 
 .navigation_link{
@@ -30,7 +32,7 @@ header img{
     text-transform: uppercase;
 
     position: relative;
- 
+ margin-right: 25px;
 }
 
 .navigation_link:hover{
@@ -67,12 +69,16 @@ header img{
     
 }
 
+.navigation_social{
+    margin-right: 25px;
+}
 
 .navigation_social svg{
     width: 20px;
     height: 20px;
     opacity: 0.6;
     transition: 0.4s;
+    
 }
 
 .navigation_social svg:hover{
