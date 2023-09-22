@@ -1,0 +1,19 @@
+@media screen and (max-width: 985px) {
+    .burguer{
+        display: block;
+    }
+
+    .social_icon{
+        display: none;
+    }
+
+    .navigation_social{
+        
+        column-gap: 0px;
+        
+    }
+
+    .navigation{
+        column-gap: 25px;
+    }
+}

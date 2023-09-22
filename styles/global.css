@@ -2,10 +2,12 @@
 @import url(./header.css);
 @import url(./main.css);
 
+
+
 :root {
     --text: #EDF1F7;
     --azul: #2DDAFA;
-    --vermelho: #E80115;
+    --vermelho: #00CA6A;
 }
 
 *{
@@ -35,4 +37,8 @@ button:hover{
 
     width: 100%;
     height: 100vh;
+}
+
+.burguer{
+    display: none;
 }
