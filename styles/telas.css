@@ -81,15 +81,16 @@
         margin-top: 10px;
     }
 
-    
-
-
 
     main{
         flex-direction: column;
         justify-content: center;
     }
 
+
+    .custom-shape-divider-bottom-1697649806{
+        top: 1300px;
+    }
     
 }
 
